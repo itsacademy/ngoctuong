@@ -26,22 +26,22 @@
   <!-- Home -->
   <div class="home">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="header_container container">
-            <a class="navbar-brand" href="./index.html"><img src="https://preview.colorlib.com/theme/personal/img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    <a class="nav-link" href="./services.html">Services</a>
-                    <a class="nav-link" href="./about.html">About</a>
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </div>
-            </div>
+      <div class="header_container container">
+        <a class="navbar-brand" href="./index.html"><img src="https://preview.colorlib.com/theme/personal/img/logo.png"
+            alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link" href="./services.html">Services</a>
+            <a class="nav-link" href="./about.html">About</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </div>
         </div>
+      </div>
     </nav>
   </div>
   <!-- first section -->
@@ -53,7 +53,41 @@
           <h1 class="sect_1_h1">PHILIP GILBERT</h1>
           <p class="sect_1_p">You will begin to realise why this exercise is called the Dickens Pattern with reference
             to the ghost showing Scrooge some different futures.</p>
-          <button class="sect_1_button">DISCOVER NOW</button>
+          <button class="sect_1_button" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#Modal1">
+            DISCOVER NOW
+          </button>
+          <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">DISCOVER NOW</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  About me and my profession!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="liveToastBtn1">
+                    Save changes
+                  </button>
+                  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <strong class="me-auto">Notice</strong>
+                        <small>1 second ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        Changes saved succesfully!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="section_1_right col-md-6">
           <img src="https://preview.colorlib.com/theme/personal/img/hero-img.png" alt="" class="sect_1_img">
@@ -73,7 +107,39 @@
           <p class="sect_2_p">Here, I focus on a range of items and features that we use in life without giving them a
             second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          <button class="sect_2_button">VIEW FULL DETAILS</button>
+          <button class="sect_2_button" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#Modal2">VIEW FULL DETAILS</button>
+          <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">VIEW FULL DETAILS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  The little things!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="liveToastBtn2">
+                    Save changes
+                  </button>
+                  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <strong class="me-auto">Notice</strong>
+                        <small>1 second ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        Changes saved succesfully!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -334,6 +400,8 @@
       </div>
     </div>
   </div>
+  <!-- section slide -->
+
   <!-- section 8 -->
   <div class="section_8">
     <div class="section_8_container container">
@@ -446,8 +514,42 @@
           <h5 class="sect_foot_title">Newsletter</h5>
           <p class="sect_foot_desc">Stay updated with our latest trends</p>
           <div class="sect_foot_input_group">
-            <input type="text" placeholder="Enter Email Adress" class="sect_foot_input"><button
-              class="sect_foot_button"><span class="lnr lnr-arrow-right"></span></button></input>
+            <input type="text" placeholder="Enter Email Adress" class="sect_foot_input"><button class="sect_foot_button"
+              type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_footer"><span
+                class="lnr lnr-arrow-right"></span></button>
+            </input>
+            <div class="modal fade" id="modal_footer" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">YOUR EMAIL ADRESS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Stay in touch with me!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="liveToastBtn3">
+                      Save changes
+                    </button>
+                    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                      <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                          <strong class="me-auto">Notice</strong>
+                          <small>1 second ago</small>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                          Changes saved succesfully!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="sect_foot_follow sect_foot_item col-md-2">
@@ -463,10 +565,29 @@
       </div>
     </div>
   </div>
-  </div>
-  </div>
-  </div>
-  </div>
+  <script>
+    document.getElementById("liveToastBtn1").onclick = function () {
+      var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+      var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+      })
+      toastList.forEach(toast => toast.show())
+    }
+    document.getElementById("liveToastBtn2").onclick = function () {
+      var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+      var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+      })
+      toastList.forEach(toast => toast.show())
+    }
+    document.getElementById("liveToastBtn3").onclick = function () {
+      var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+      var toastList = toastElList.map(function (toastEl) {
+        return new bootstrap.Toast(toastEl)
+      })
+      toastList.forEach(toast => toast.show())
+    }
+  </script>
 </body>
 
 </html>

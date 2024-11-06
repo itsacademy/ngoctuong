@@ -8,6 +8,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.home_header {
+    font-family: "Poppins", sans-serif;
+}
+
+
 .section_1_row {
     justify-content: space-around;
     align-items: center;
@@ -26,6 +31,8 @@ body {
     padding-bottom: 15px;
 }
 
+
+
 .sect_1_p {
     font-weight: 200;
 }
@@ -42,6 +49,10 @@ body {
     border: none;
     font-size: 14px;
     font-weight: 600;
+}
+
+.cont_2_button {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 
 .sect_1_img {
@@ -446,8 +457,9 @@ body {
     padding-top: 20px;
 }
 
+
 .section_label {
-    background-color: rgb(119,161,254);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     width: 100%;
 }
 
@@ -484,6 +496,10 @@ body {
     align-content: center;
 }
 
+.section_footer_service {
+    margin-bottom: 80px;
+}
+
 .sect_foot_title {
     color: white;
     padding-bottom: 20px;
@@ -491,7 +507,7 @@ body {
 
 .sect_foot_button {
     border: none;
-    background-color: rgb(132,144,255);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     width: 45px;
     height: 39px;
 }
@@ -538,8 +554,17 @@ body {
 }
 
 .serv_1_header {
-    height: 175px;
-    align-content: center;
+    display: flex;
+    height: 270px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv_1_title {
+    font-weight: 600;
+    font-size: 48px;
 }
 
 .service_footer {
@@ -734,4 +759,9 @@ iframe {
     z-index: 2;
     color: #fff;
     cursor: pointer;
+}
+
+.btn-primary {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: none;
 }
